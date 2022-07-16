@@ -3,21 +3,3 @@
 .App {
   text-align: center;
 }
-
-.wrapper {
-	margin: 0 auto;
-	margin-top: 150px;
-	width: 480px;
-	height: 560px;
-	position: relative;
-}
-
-.graph {
-	/* background-color: bisque; */
-	height: 100%;
-	width: auto;
-}
-
-.bottom-numbers {
-	font: 400 .875rem 'Nunito', sans-serif;
-}
