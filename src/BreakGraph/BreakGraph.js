@@ -47,12 +47,12 @@ const BreakGraph = () => {
   const yScaleMultiplier =
     PARAMS.VERTICAL_GRID_LINES_HEIGHT / 2 / (maxVerticalBreakValue - minVerticalBreakValue);
   return (
-    <div className={cl.wrapper}>
       <svg
         viewBox='0 0 350 548'
         xmlns='http://www.w3.org/2000/svg'
         className={cl.graph}
-        preserveAspectRatio='none'>
+        // preserveAspectRatio='none'
+				>
         {/* Main layout rendering */}
         {/* Vertical center grid line */}
         <line
@@ -189,7 +189,6 @@ const BreakGraph = () => {
           </Fragment>
         ))}
       </svg>
-    </div>
   );
 };
 

@@ -61,12 +61,12 @@ const FrequencySpeedGraph = () => {
   const leftScaleMultiplier = 165 / maxFrequencyLineValue;
   const rightScaleMultiplier = 198 / (maxSpeedLineValue - minSpeedLineValue);
   return (
-    <div className={cl.wrapper}>
       <svg
         viewBox='0 0 480 535'
         xmlns='http://www.w3.org/2000/svg'
         className={cl.graph}
-        preserveAspectRatio='none'>
+        // preserveAspectRatio='none'
+				>
         {/* Main layout rendering */}
         {/* Vertical center grid line */}
         <line
@@ -226,7 +226,6 @@ const FrequencySpeedGraph = () => {
           );
         })}
       </svg>
-    </div>
   );
 };
 
