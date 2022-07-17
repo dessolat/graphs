@@ -1,15 +1,7 @@
-.wrapper {
-	margin: 0 auto;
-	margin-top: 150px;
-	width: 350px;
-	height: 548px;
-	position: relative;
-}
-
 .graph {
 	aspect-ratio: 350 / 548;
-	height: 100%;
-	width: auto;
+	max-width: 350px;
+	height: auto;
 }
 
 .bottomNumber {
